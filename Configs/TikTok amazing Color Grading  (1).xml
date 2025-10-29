@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' ?><!--
+Created by Alight Motion (http://alightmotion.com)
+Exported: 2022-02-18 03:26 PM
+4.0.3 (0573)
+3f178a1 (Nov 23, 2021 5:24:40 PM)
+-->
+<scene title="Osthir Color Grading by JF Tech Zone " width="1080" height="1920" exportWidth="1080" exportHeight="1920" precompose="dynamicResolution" bgcolor="#ff000000" totalTime="13732" fps="30" modifiedTime="1645176418472" amver="573" ffver="105" am="com.alightcreative.motion/4.0.3" amplatform="android" retime="freeze" retimeAdaptFPS="false">
+  <shape id="628084" label="Rounded Rectangle 1" startTime="0" endTime="2799" fillType="color" s=".roundrect">
+    <transform>
+      <location value="540.000000,960.000000,0.000000" />
+      <scale value="9.600000,9.600000" />
+    </transform>
+    <fillColor value="#ff8bc8ef" />
+    <effect id="com.alightcreative.effects.lift" locallyApplied="false">
+      <property name="fill" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.streaks" locallyApplied="false">
+      <property name="strength" type="float">
+        <kf t="0.000000" v="0.060000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 1.0 0.58 1.0" />
+      </property>
+      <property name="angle" type="float" value="0.000000" />
+      <property name="alpha" type="float" value="1.000000" />
+      <property name="bias" type="float" value="0.000000" />
+      <property name="rmode" type="int" value="1" />
+      <property name="gmode" type="int" value="1" />
+      <property name="bmode" type="int" value="1" />
+      <property name="amode" type="int" value="1" />
+    </effect>
+    <effect id="com.alightcreative.effects.streaks" locallyApplied="false">
+      <property name="strength" type="float">
+        <kf t="0.000000" v="0.060000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 1.0 0.58 1.0" />
+      </property>
+      <property name="angle" type="float" value="90.000000" />
+      <property name="alpha" type="float" value="1.000000" />
+      <property name="bias" type="float" value="0.000000" />
+      <property name="rmode" type="int" value="1" />
+      <property name="gmode" type="int" value="1" />
+      <property name="bmode" type="int" value="1" />
+      <property name="amode" type="int" value="1" />
+    </effect>
+    <property name="size" type="vec2" value="100.000000,100.000000" />
+    <property name="cornerRadius" type="float" value="25.000000" />
+  </shape>
+  <shape id="628085" label="Rounded Rectangle 2" startTime="0" endTime="13732" fillType="color" s=".roundrect">
+    <transform>
+      <location value="540.000000,960.000000,0.000000" />
+      <scale value="9.600000,9.600000" />
+    </transform>
+    <fillColor value="#ff71ac64" />
+    <effect id="com.alightcreative.effects.lift" locallyApplied="true">
+      <property name="fill" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.channelmap" locallyApplied="true">
+      <property name="red" type="int" value="0" />
+      <property name="green" type="int" value="1" />
+      <property name="blue" type="int" value="1" />
+      <property name="alpha" type="int" value="3" />
+    </effect>
+    <property name="size" type="vec2" value="100.000000,100.000000" />
+    <property name="cornerRadius" type="float" value="25.000000" />
+  </shape>
+  <shape id="628086" label="Rounded Rectangle 2 Copy" startTime="0" endTime="13732" fillType="color" blending="subtract" s=".roundrect">
+    <transform>
+      <location value="540.000000,960.000000,0.000000" />
+      <scale value="9.600000,9.600000" />
+    </transform>
+    <fillColor value="#ff71ac64" />
+    <effect id="com.alightcreative.effects.lift" locallyApplied="true">
+      <property name="fill" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.gaussianblur" locallyApplied="true">
+      <property name="strength" type="float" value="0.500000" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure" locallyApplied="true">
+      <property name="exposure" type="float" value="-0.900000" />
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <property name="size" type="vec2" value="100.000000,100.000000" />
+    <property name="cornerRadius" type="float" value="25.000000" />
+  </shape>
+  <shape id="628087" label="Rounded Rectangle 2 Copy 2" startTime="0" endTime="13732" fillType="color" blending="overlay" s=".roundrect">
+    <transform>
+      <location value="540.000000,960.000000,0.000000" />
+      <scale value="9.600000,9.600000" />
+    </transform>
+    <property name="size" type="vec2" value="100.000000,100.000000" />
+    <property name="cornerRadius" type="float" value="25.000000" />
+  </shape>
+  <shape id="628088" label="Rounded Rectangle 2 Copy 3" startTime="0" endTime="13732" fillType="color" s=".roundrect">
+    <transform>
+      <location value="920.286804,1086.925415,0.000000" />
+      <scale value="10.737590,10.737590" />
+    </transform>
+    <fillColor value="#ff71ac64" />
+    <effect id="com.alightcreative.effects.lift" locallyApplied="true">
+      <property name="fill" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.simplestars2" locallyApplied="true">
+      <property name="starParallax" type="vec3">
+        <kf t="1.031532" v="0.000000,0.000000,0.000000" />
+        <kf t="0.000058" v="0.000000,-300.000000,0.000000" />
+      </property>
+      <property name="scale" type="float" value="1.500000" />
+      <property name="starSize" type="float" value="0.050000" />
+      <property name="starFeather" type="float" value="10.000000" />
+      <property name="color" type="color" value="#ffffffff" />
+      <property name="alpha" type="float" value="1.000000" />
+      <property name="starCount" type="float" value="30.000000" />
+      <property name="brightness" type="float" value="1.000000" />
+      <property name="blendMode" type="int" value="2" />
+    </effect>
+    <property name="size" type="vec2" value="100.000000,100.000000" />
+    <property name="cornerRadius" type="float" value="25.000000" />
+  </shape>
+  <shape id="628092" label="Rounded Rectangle 2 Copy 4" startTime="0" endTime="13732" fillType="color" s=".roundrect">
+    <transform>
+      <location value="540.000000,960.000000,0.000000" />
+      <scale value="9.600000,9.600000" />
+    </transform>
+    <fillColor value="#ff71ac64" />
+    <effect id="com.alightcreative.effects.lift" locallyApplied="true">
+      <property name="fill" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.simplestars2" locallyApplied="true">
+      <property name="starParallax" type="vec3">
+        <kf t="1.031532" v="0.000000,0.000000,0.000000" />
+        <kf t="0.000058" v="0.000000,-300.000000,0.000000" />
+      </property>
+      <property name="scale" type="float" value="1.500000" />
+      <property name="starSize" type="float" value="0.050000" />
+      <property name="starFeather" type="float" value="10.000000" />
+      <property name="color" type="color" value="#ffffffff" />
+      <property name="alpha" type="float" value="1.000000" />
+      <property name="starCount" type="float" value="30.000000" />
+      <property name="brightness" type="float" value="1.000000" />
+      <property name="blendMode" type="int" value="2" />
+    </effect>
+    <property name="size" type="vec2" value="100.000000,100.000000" />
+    <property name="cornerRadius" type="float" value="25.000000" />
+  </shape>
+</scene>
