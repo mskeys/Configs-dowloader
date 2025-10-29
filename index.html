@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure File Download</title>
+    <style>
+        /* Basic Reset and Styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            padding: 20px;
+            background-color: #f0f2f5; /* Light gray background */
+            color: #333;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+        }
+
+        /* Container for the main content */
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 90%;
+            margin: auto;
+        }
+
+        /* Heading Style */
+        h1 {
+            color: #007bff;
+            margin-bottom: 10px;
+            font-size: 2em;
+        }
+
+        /* Description Paragraph */
+        p {
+            margin-bottom: 30px;
+            color: #666;
+            font-size: 1.1em;
+        }
+
+        /* TikTok Reminder Style */
+        .tiktok-reminder {
+            background-color: #ffe0e6; /* Very light pink background */
+            border: 1px solid #ffb3c1;
+            padding: 15px;
+            margin: 25px 0;
+            border-radius: 8px;
+            font-weight: bold;
+            color: #FE2C55; /* TikTok Brand Color */
+        }
+        
+        .tiktok-reminder a {
+            color: #FE2C55;
+            text-decoration: underline;
+        }
+
+
+        /* Download Button Style */
+        .download-btn {
+            display: inline-block;
+            padding: 15px 30px;
+            margin-top: 15px;
+            background-color: #28a745; /* Green color for action */
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 1.2em;
+            transition: background-color 0.3s ease, transform 0.1s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .download-btn:hover {
+            background-color: #218838; /* Darker green on hover */
+            transform: translateY(-2px); /* Slight lift effect */
+        }
+
+        .download-btn:active {
+            transform: translateY(0);
+        }
+
+        /* File Information */
+        .file-info {
+            margin-top: 25px;
+            padding: 15px;
+            background-color: #e9ecef;
+            border-radius: 8px;
+            font-size: 0.9em;
+        }
+
+        .file-info strong {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>📦 File Ready for Download</h1>
+
+        <p>You can securely download your requested file below. This is an XML data file for use with your application.</p>
+
+        <div class="tiktok-reminder">
+            Please don't forget to follow me on TikTok: 
+            <a href="https://www.tiktok.com/@talentemsk" target="_blank">**@talentemsk**</a>. Thank You!
+        </div>
+
+        <a href="your_data_file.xml" download="configuration_data.xml" class="download-btn">
+            ⬇️ Download XML File Now
+        </a>
+
+        <div class="file-info">
+            File Type: <strong>XML Data</strong> | Size: <strong>[File Size]</strong> | Last Updated: <strong>[Date]</strong>
+        </div>
+    </div>
+
+</body>
+</html>
